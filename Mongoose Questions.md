@@ -1,5 +1,20 @@
 # Mongoose Interview Answers 
 
+## 📜 Table of Contents
+- [1. What is Mongoose, and why is it used with MongoDB?](#1-what-is-mongoose-and-why-is-it-used-with-mongodb)
+- [2. How do Mongoose schemas differ from MongoDB's flexible schema?](#2-how-do-mongoose-schemas-differ-from-mongodbs-flexible-schema)
+- [3. Explain the role of models in Mongoose.](#3-explain-the-role-of-models-in-mongoose)
+- [4. How does Mongoose handle data validation?](#4-how-does-mongoose-handle-data-validation)
+- [5–6. What are middleware (hooks) in Mongoose? Pre vs Post with use cases](#56-what-are-middleware-hooks-in-mongoose-pre-vs-post-with-use-cases)
+- [7–8. What is population in Mongoose? How does it simulate joins?](#78-what-is-population-in-mongoose-how-does-it-simulate-joins)
+- [9. What are computed fields in Mongoose?](#9-what-are-computed-fields-in-mongoose)
+- [10. How does Mongoose support transactions?](#10-how-does-mongoose-support-transactions)
+- [11. What is lean() in Mongoose, and why is it important?](#11-what-is-lean-in-mongoose-and-why-is-it-important)
+- [12. How does Mongoose handle indexing?](#12-how-does-mongoose-handle-indexing)
+- [13. What are discriminators in Mongoose?](#13-what-are-discriminators-in-mongoose)
+- [14. How do you implement soft deletes in Mongoose?](#14-how-do-you-implement-soft-deletes-in-mongoose)
+- [15. What performance issues commonly arise when using Mongoose?](#15-what-performance-issues-commonly-arise-when-using-mongoose)
+
 ## 1. What is Mongoose, and why is it used with MongoDB?
 
 **Short version (30s):**  

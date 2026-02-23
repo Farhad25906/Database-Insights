@@ -1,5 +1,22 @@
 # Prisma Questions
 
+## 📜 Table of Contents
+- [1. What is Prisma, and how does it differ from traditional ORMs?](#1-what-is-prisma-and-how-does-it-differ-from-traditional-orms)
+- [2. Explain the Prisma schema file and its purpose.](#2-explain-the-prisma-schema-file-and-its-purpose)
+- [3. How do Prisma Client provide type safety?](#3-how-do-prisma-client-provide-type-safety)
+- [4. How are models and relations defined in Prisma?](#4-how-are-models-and-relations-defined-in-prisma)
+- [5. What are Prisma enums, and why are they useful?](#5-what-are-prisma-enums-and-why-are-they-useful)
+- [6. How does Prisma handle CRUD operations?](#6-how-does-prisma-handle-crud-operations)
+- [7. Explain nested reads and nested writes in Prisma.](#7-explain-nested-reads-and-nested-writes-in-prisma)
+- [8. How does Prisma manage database transactions?](#8-how-does-prisma-manage-database-transactions)
+- [9. What happens when a Prisma transaction fails?](#9-what-happens-when-a-prisma-transaction-fails)
+- [10. What is Prisma Migrate?](#10-what-is-prisma-migrate)
+- [11. Difference between migrate dev and db push.](#11-difference-between-migrate-dev-and-db-push)
+- [12. How does Prisma prevent SQL injection?](#12-how-does-prisma-prevent-sql-injection)
+- [13. How does Prisma handle pagination and filtering?](#13-how-does-prisma-handle-pagination-and-filtering)
+- [14. How does Prisma work with MySQL vs PostgreSQL?](#14-how-does-prisma-work-with-mysql-vs-postgresql)
+- [15. What are common limitations or pitfalls of Prisma?](#15-what-are-common-limitations-or-pitfalls-of-prisma)
+
 ## 1. What is Prisma, and how does it differ from traditional ORMs?
 Prisma is a modern ORM for Node.js/TypeScript that auto-generates a type-safe client from a schema, focusing on developer experience. Unlike traditional ORMs like Sequelize, which use runtime queries, Prisma uses a declarative schema and compile-time checks, reducing errors and boilerplate while integrating seamlessly with databases for efficient, business-aligned development.
 

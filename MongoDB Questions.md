@@ -1,5 +1,22 @@
 # MongoDB Interview Questions 
 
+## 📜 Table of Contents
+- [1. Explain MongoDB’s document-oriented data model.](#1-explain-mongodbs-document-oriented-data-model)
+- [2. How do documents and collections differ from rows and tables?](#2-how-do-documents-and-collections-differ-from-rows-and-tables)
+- [3. What is BSON, and why does MongoDB use it?](#3-what-is-bson-and-why-does-mongodb-use-it)
+- [4. How do indexing work in MongoDB?](#4-how-do-indexing-work-in-mongodb)
+- [5. What is the aggregation framework in MongoDB?](#5-what-is-the-aggregation-framework-in-mongodb)
+- [6. Explain the difference between embedding and referencing.](#6-explain-the-difference-between-embedding-and-referencing)
+- [7. How does MongoDB handle relationships between collections?](#7-how-does-mongodb-handle-relationships-between-collections)
+- [8. What is replication in MongoDB?](#8-what-is-replication-in-mongodb)
+- [9. What is a replica set, and why is it important?](#9-what-is-a-replica-set-and-why-is-it-important)
+- [10. How do MongoDB support multi-document transactions?](#10-how-do-mongodb-support-multi-document-transactions)
+- [11. What is sharding in MongoDB, and how does it improve scalability?](#11-what-is-sharding-in-mongodb-and-how-does-it-improve-scalability)
+- [12. What are capped collections?](#12-what-are-capped-collections)
+- [13. How does MongoDB ensure data durability?](#13-how-does-mongodb-ensure-data-durability)
+- [14. What is the difference between find() and aggregation pipelines?](#14-what-is-the-difference-between-find-and-aggregation-pipelines)
+- [15. What are common schema design mistakes in MongoDB?](#15-what-are-common-schema-design-mistakes-in-mongodb)
+
 ## 1. Explain MongoDB’s document-oriented data model.
 
 MongoDB stores data as **BSON documents** (JSON-like) — self-contained, hierarchical records with flexible key-value pairs, nested objects, and arrays.  

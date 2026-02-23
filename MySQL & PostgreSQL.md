@@ -1,5 +1,22 @@
 # MySQL / PostgreSQL Questions
 
+## 📜 Table of Contents
+- [1. Explain the key architectural differences between PostgreSQL and MySQL.](#1-explain-the-key-architectural-differences-between-postgresql-and-mysql)
+- [2. What are primary keys and foreign keys?](#2-what-are-primary-keys-and-foreign-keys)
+- [3. How do transactions work in relational databases?](#3-how-do-transactions-work-in-relational-databases)
+- [4. Explain isolation levels and their impact.](#4-explain-isolation-levels-and-their-impact)
+- [5. What is MVCC, and how does it help concurrency?](#5-what-is-mvcc-and-how-does-it-help-concurrency)
+- [6. Explain different types of joins with use cases.](#6-explain-different-types-of-joins-with-use-cases)
+- [7. How does indexing improve query performance?](#7-how-does-indexing-improve-query-performance)
+- [8. What are composite indexes, and when should they be used?](#8-what-are-composite-indexes-and-when-should-they-be-used)
+- [9. How do PostgreSQL and MySQL differ in JSON support?](#9-how-do-postgresql-and-mysql-differ-in-json-support)
+- [10. What are views, and why are they useful?](#10-what-are-views-and-why-are-they-useful)
+- [11. What are stored procedures and triggers?](#11-what-are-stored-procedures-and-triggers)
+- [12. What is normalization vs denormalization?](#12-what-is-normalization-vs-denormalization)
+- [13. How does replication work in relational databases?](#13-how-does-replication-work-in-relational-databases)
+- [14. What causes deadlocks in SQL databases?](#14-what-causes-deadlocks-in-sql-databases)
+- [15. How can deadlocks be prevented or minimized?](#15-how-can-deadlocks-be-prevented-or-minimized)
+
 ## 1. Explain the key architectural differences between PostgreSQL and MySQL.
 PostgreSQL uses a process-based architecture where each connection spawns a new process, enabling robust concurrency and extensibility, while MySQL employs a thread-based model for lighter resource usage and faster performance in read-heavy workloads. PostgreSQL emphasizes standards compliance and advanced features like full-text search natively, whereas MySQL focuses on simplicity and speed, with plugins for extensibility. In practice, PostgreSQL suits complex, transactional apps, and MySQL excels in web-scale, high-availability scenarios.
 

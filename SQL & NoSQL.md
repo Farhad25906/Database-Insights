@@ -1,5 +1,22 @@
 # SQL vs NoSQL Database Concepts 
 
+## 📜 Table of Contents
+- [1. Explain the fundamental differences between SQL and NoSQL databases.](#1-explain-the-fundamental-differences-between-sql-and-nosql-databases)
+- [2. What is schema enforcement, and how does it differ in SQL and NoSQL systems?](#2-what-is-schema-enforcement-and-how-does-it-differ-in-sql-and-nosql-systems)
+- [3. What is normalization, and why is it important in relational databases?](#3-what-is-normalization-and-why-is-it-important-in-relational-databases)
+- [4. Explain 1NF, 2NF, and 3NF and the problems they aim to solve.](#4-explain-1nf-2nf-and-3nf-and-the-problems-they-aim-to-solve)
+- [5. Why do many NoSQL databases avoid strict normalization?](#5-why-do-many-nosql-databases-avoid-strict-normalization)
+- [6. What are joins, and why are they central to relational databases?](#6-what-are-joins-and-why-are-they-central-to-relational-databases)
+- [7. Why do NoSQL databases generally not support joins natively?](#7-why-do-nosql-databases-generally-not-support-joins-natively)
+- [8. Explain ACID properties in databases.](#8-explain-acid-properties-in-databases)
+- [9. What is BASE consistency, and how does it differ from ACID?](#9-what-is-base-consistency-and-how-does-it-differ-from-acid)
+- [10. How do SQL and NoSQL databases differ in horizontal scalability?](#10-how-do-sql-and-nosql-databases-differ-in-horizontal-scalability)
+- [11. What is indexing, and how does it affect read and write operations?](#11-what-is-indexing-and-how-does-it-affect-read-and-write-operations)
+- [12. What is sharding, and why is it commonly used in NoSQL databases?](#12-what-is-sharding-and-why-is-it-commonly-used-in-nosql-databases)
+- [13. Explain eventual consistency with practical examples.](#13-explain-eventual-consistency-with-practical-examples)
+- [14. How do data modeling philosophy differ between SQL and NoSQL?](#14-how-do-data-modeling-philosophy-differ-between-sql-and-nosql)
+- [15. What trade-offs exist between consistency, availability, and partition tolerance?](#15-what-trade-offs-exist-between-consistency-availability-and-partition-tolerance)
+
 ## 1. Explain the fundamental differences between SQL and NoSQL databases.
 
 **SQL** (Relational):  

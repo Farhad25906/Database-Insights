@@ -2,7 +2,8 @@
 
 Welcome to the Database Insights repository. This guide is organized into several modules, each focusing on a specific area of database technology.
 
-Use the links below to navigate through the topics:
+## 📜 Table of Contents
+- [🧭 Navigation](#-navigation)
 
 ## 🧭 Navigation
 
