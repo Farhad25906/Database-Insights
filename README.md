@@ -2,9 +2,6 @@
 
 Welcome to the Database Insights repository. This guide is organized into several modules, each focusing on a specific area of database technology.
 
-## 📜 Table of Contents
-- [🧭 Navigation](#-navigation)
-
 ## 🧭 Navigation
 
 - **[General Concepts (SQL vs NoSQL)](./SQL&NoSQL(General%20Database%20Concepts).md)**
@@ -21,4 +18,3 @@ Welcome to the Database Insights repository. This guide is organized into severa
     - Real-world design scenarios, performance troubleshooting, and architectural trade-offs.
 
 ---
-*Created as a comprehensive reference for Senior/Staff Engineer interviews.*
