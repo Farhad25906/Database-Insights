@@ -1,7 +1,4 @@
-# MongoDB Interview Questions - Expected 10/10 Answers (Senior/Staff Level)
-
-**Reference date:** February 24, 2026  
-**MongoDB context:** Current stable branches ~8.0 / 8.2 series.
+# MongoDB Interview Questions 
 
 ## 1. Explain MongoDB’s document-oriented data model.
 
@@ -158,4 +155,4 @@ Use `find()` for lookups; aggregation for transformations, reporting, joins.
 9. **Massive documents without subset / bucketing** patterns  
 10. **No schema validation** (MongoDB supports JSON Schema) → garbage data
 
-Follow **query-driven design**, **cardinality rules** (1:few embed, 1:many reference), and **index + validation** from day one.
+

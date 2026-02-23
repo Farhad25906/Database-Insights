@@ -16,6 +16,8 @@ Use the links below to navigate through the topics:
     - Schemas, Models, Middleware, Population, and Performance.
 - **[Prisma (ORM)](./Prisma%20Questions.md)**
     - Type safety, Migrations, Transactions, and CRUD operations.
+- **[Scenario-Based Questions](./ScenarioBased%20Question.md)**
+    - Real-world design scenarios, performance troubleshooting, and architectural trade-offs.
 
 ---
 *Created as a comprehensive reference for Senior/Staff Engineer interviews.*
